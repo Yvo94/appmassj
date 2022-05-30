@@ -19,7 +19,35 @@ const Home: NextPage = () => {
         <h3>
             <a href="">M</a>utuelle des <a href="">A</a>nciens <a href="">S</a>couts de <a href="">S</a>aint <a href="">J</a>oseph - Daloa
         </h3>
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Reglement Intérieur</h2>
+            <p>Lire le règlement intérieur de la mutuelle.</p>
+          </a>
 
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Activités &rarr;</h2>
+            <p>Prendre connaissance des activités en cours.</p>
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+            className={styles.card}
+          >
+            <h2>Les adhérents &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>Les cotisations &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+        </div>
       </main>
 
     </div>
